@@ -1,0 +1,30 @@
+.button{
+    width: 298px;
+    height: 57px;
+    border-radius: 28.5px;
+    background-color: #00D095;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    color: white;
+    margin: 4rem 0 6rem;
+    cursor: pointer;
+}
+.button:hover{
+    color: #00D095;
+    background-color: white;
+    border: 1px solid #00D095;
+}
+@media(max-width: 1030px){
+    .button{
+        width: 250px;
+    }
+}
+@media(max-width: 900px){
+    .button{
+        width: 200px;
+        margin-top: 2rem;
+    }
+}

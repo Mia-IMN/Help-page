@@ -1,0 +1,116 @@
+.featured {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  .links {
+    display: flex;
+    margin: 1.5rem 0 3rem;
+    .varieties {
+      padding: 0 1rem;
+      height: 42px;
+      width: 102px;
+      border-radius: 21px;
+      border: 1px solid #e8e7e8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      line-height: 21px;
+      margin: 0 0.5rem;
+      cursor: pointer;
+    }
+    .active {
+      color: #6c57be;
+      background-color: #e8e7e8;
+    }
+  }
+  .articles-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .articles {
+    width: 448px;
+    height: 296px;
+    border-radius: 20px;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  .articles:hover {
+    box-shadow: 0 5px 15px (rgba(24, 94, 109, 0.09));
+  }
+  h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #3b3a40;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #3b3a40;
+    margin: 1rem 0;
+  }
+  p {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #64626a;
+  }
+}
+@media (max-width: 1100px) {
+  .featured {
+    .articles-list {
+      gap: 1rem;
+    }
+  }
+}
+@media (max-width: 1030px) {
+  .featured {
+    h2 {
+      font-size: 30px;
+    }
+    .links {
+      .varieties {
+        width: 98px;
+        height: 35px;
+        line-height: 15px;
+        padding: 0 .5rem;
+      }
+    }
+    .articles {
+      width: 368px;
+      height: 356px;
+    }
+    .image {
+      width: 368px;
+    }
+  }
+}
+@media(max-width: 900px){
+  .featured{
+    .articles{
+      width: 300px;
+      height: 330px;
+    }
+    .image{
+      width: 300px;
+    }
+  }
+}
+@media(max-width: 800px){
+  .featured{
+    // background-color: #000;
+    .articles-list{
+      grid-template-columns: 1fr;
+    }
+    .articles {
+      width: 448px;
+      height: 296px;
+    } 
+    .image{
+      width: 100%;
+    } 
+  }
+}

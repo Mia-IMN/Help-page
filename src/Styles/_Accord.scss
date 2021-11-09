@@ -1,0 +1,40 @@
+.accordion{
+    margin: 2rem 0;
+    .head{
+        // height: 88px !important;
+        font-family: 'Poppins', sans-serif !important;
+        font-size: 20px !important;
+        line-height: 30px !important;
+        letter-spacing: 0.38px !important;
+        color: #3B3A40 !important;
+        // margin: 1rem 0 0;
+}
+.body{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    color: #64626a;
+}
+.Accordion{
+    margin-top: 1rem;
+    box-shadow: 0 5px 15px rgba($color: #000000, $alpha: 0.03);
+    border: 1px solid #eee;
+    border-radius: 20px;
+}
+}
+@media (max-width: 1030px){
+    .accordion{
+        margin: 2rem;
+    }
+}
+@media(max-width: 900px){
+    .accordion{
+        .head{
+            font-size: 18px !important;
+        }
+        .body{
+            text-align: left !important;
+        }
+    }
+}
