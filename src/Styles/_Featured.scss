@@ -101,16 +101,59 @@
 }
 @media(max-width: 800px){
   .featured{
-    // background-color: #000;
-    .articles-list{
-      grid-template-columns: 1fr;
+    .links{
+    .varieties{
+      font-size: 12px;
+      width: 85px;
     }
+  }
+    // .articles-list{
+    //   grid-template-columns: 1fr;
+    // }
     .articles {
-      width: 448px;
+      width: 250px;
       height: 296px;
     } 
     .image{
       width: 100%;
     } 
+  }
+}
+@media(max-width: 700px){
+  .featured{
+    .articles-list{
+      gap: .5rem;
+    }
+    h3 {
+      font-size: 18px;
+      margin: .5rem 0;
+    }
+  
+  }
+}
+@media(max-width: 635px){
+  .featured{
+    .links{ 
+      .varieties{
+        width: 65px;
+        text-align: center;
+      }
+    }
+    .articles-list{
+      grid-template-columns: 1fr;
+    }
+  }
+}
+@media(max-width:500px){
+  .featured{
+    .links{
+      .varieties{
+        width: 50px;
+        font-size: 10px;
+      }
+    }
+    h2{
+      font-size: 26px;
+    }
   }
 }

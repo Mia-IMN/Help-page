@@ -59,3 +59,28 @@
     }
   }
 }
+@media(max-width: 700px){
+  .Secondsection{
+    gap: 1rem;
+    .help-list{
+      width: 12rem;
+      font-size: 14px;
+    }
+    h3{
+      font-size: 20px;
+    }
+  }
+}
+@media(max-width: 590px){
+  .Secondsection{
+    grid-template-columns: 1fr;
+    margin: 4rem 0;
+    .help-list{
+      width: 15rem;
+      font-size: 14px;
+    }
+    h3{
+      font-size: 24px;
+    }
+  }
+}

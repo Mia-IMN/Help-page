@@ -26,3 +26,10 @@
         flex-direction: column;
     }
 }
+@media(max-width: 590px){
+    .checkoutneighbourhood{
+        h2{
+            font-size: 18px;
+        }
+    }
+}

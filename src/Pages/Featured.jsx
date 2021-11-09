@@ -48,6 +48,11 @@ const Featured = () => {
     setOpenSeller(false);
     setOpenInspiration(false);
   };
+  // const filter =()=>{
+  //   if(articles > 3){
+  //     return articles.
+  //   }
+  // }
   return (
     <div className="featured">
       <h2>Featured Articles from us</h2>
